@@ -1,0 +1,88 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@400;500&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+.container
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(1034504.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card
+{
+    width: 450px;
+    height: 320px;
+    background: aqua;
+    border: solid;
+    border-color: white;
+    border-radius: 15px;
+    border-width: 2px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+}
+.card > h1
+{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+.entrada
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.entrada > input
+{
+    width: 400px;
+    height: 30px;
+    border: solid;
+    border-color: white;
+    background: transparent;
+    border-width: 2px;
+    outline: none;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+.entrada > input::placeholder
+{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 600;
+}
+#botao
+{
+    width: 200px;
+    height: 30px;
+    margin-left: 125px;
+    background-color: white;
+    border: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 35px;
+}
+.card > label
+{
+    font-size: 20px;
+    color: white;
+    letter-spacing: 2px;
+    margin-left: 50px;
+}
